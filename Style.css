@@ -43,8 +43,9 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    transform: scale(1.3);
-    transition: .4s;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
 }
 .btn{
     background-color: #f9004d;
@@ -58,7 +59,9 @@ nav ul li a:hover{
 
 }
 .btn:hover{
-    transform: scale(1,2);
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
 }
 .content{
     position: absolute;
@@ -307,5 +310,4 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
-
 
